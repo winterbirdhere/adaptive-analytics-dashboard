@@ -1,0 +1,47 @@
+{
+  "name": "adaptive-analytics-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Instructor-facing learning analytics dashboard for engagement, risk review, and intervention support.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "check": "npm run lint && npm run build",
+    "test:backend": "python -m unittest discover -s backend/tests -v"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^7.3.9",
+    "@mui/material": "^7.3.9",
+    "@mui/x-charts": "^8.28.0",
+    "@mui/x-data-grid": "^8.28.0",
+    "@mui/x-date-pickers": "^8.27.2",
+    "@mui/x-tree-view": "^8.27.2",
+    "@react-spring/web": "^10.0.3",
+    "clsx": "^2.1.1",
+    "dayjs": "^1.11.20",
+    "prop-types": "^15.8.1",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.18.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.8.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "vite": "^8.0.1"
+  }
+}
